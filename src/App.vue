@@ -5,7 +5,7 @@ import Index from './views/IndexView.vue'
 </script>
 
 <template>
-  <header>
+  <header style="display:block;">
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
