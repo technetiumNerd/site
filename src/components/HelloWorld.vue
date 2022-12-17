@@ -13,6 +13,7 @@ defineProps<{
     <p>
       <a href="https://reddit.com/" target="_blank" rel="noopener">Reddit</a>
       <a href="https://github.com/technetiumnerd" target="_blank" rel="noopener">Github</a>
+      <a href="https://last.fm/user/technetiumnerd" target="_blank" rel="noopener">Last.fm</a>
     </p>
     
   </div>
