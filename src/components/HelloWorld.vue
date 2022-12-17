@@ -12,7 +12,7 @@ defineProps<{
     </h3>
     <p>
       <a href="https://reddit.com/" target="_blank" rel="noopener">Reddit</a>
-      <a href="https://github.com/" target="_blank" rel="noopener">Github</a>
+      <a href="https://github.com/technetiumnerd" target="_blank" rel="noopener">Github</a>
     </p>
     
   </div>
