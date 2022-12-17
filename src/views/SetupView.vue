@@ -14,10 +14,10 @@ function Sleep(ms: number) {
 <template>
   <h1>BSPWM, SXHKD, Polybar, neovim, vscode</h1>
   <div id="maindiv">
-    <p><a href="../public/bspwm.png"><img src="../public/bspwm.png"><span class="imgtext">Desktoppen på min bærbare.</span></a>
+    <p><a href="../public/bspwm.png" target="_blank" src="../public/bspwm.png"><span class="imgtext">Desktoppen på min bærbare.</span></a>
     Min desktop ser tilsvarende ud. Ingen bars på de ydre skærme.
     VScode med Vim-mode, selvfølgelig.</p>
-    <p><a href="../public/neofetch.png"><img src="../public/neofetch.png"><span class="imgtext">Info om min laptop. Arch Linux.</span></a>
+    <p><a href="../public/neofetch.png" target="_blank"><img src="../public/neofetch.png"><span class="imgtext">Info om min laptop. Arch Linux.</span></a>
     Jeg er godt tilfreds med de 12 AMD-kerner.</p>
   </div>
 </template>
