@@ -8,10 +8,13 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      Vi er mange der mangler svar.
     </h3>
+    <p>
+      <a href="https://reddit.com/" target="_blank" rel="noopener">Reddit</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">Github</a>
+    </p>
+    
   </div>
 </template>
 
@@ -27,8 +30,12 @@ h3 {
 }
 
 .greetings h1,
-.greetings h3 {
+.greetings h3,p {
   text-align: center;
+}
+p a {
+  padding: 8px;
+
 }
 
 @media (min-width: 1024px) {

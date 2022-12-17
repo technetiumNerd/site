@@ -6,10 +6,10 @@ import Index from './views/IndexView.vue'
 
 <template>
   <header style="display:block;">
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Christians mor" class="logo" src="@/assets/christiansmor.jpg" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Leder du også efter Christians mor?" />
 
       <nav>
         <RouterLink to="/">Index</RouterLink>
