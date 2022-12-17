@@ -13,7 +13,7 @@ function Sleep(ms: number) {
 
 <template>
   <h1>Velkommen til et sort hul</h1>
-  <div id="maindiv" style="display:block;">
+  <div id="maindiv">
     <h2 >Vi er mange, og vi er hvem som helst.</h2>
     <p>Små, sorte huller over det hele på internettet. Ingen ved hvorfor, og sådan er det bare.
     Det er bare noget der sker når et menneske møder en maskine.</p>
