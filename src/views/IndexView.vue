@@ -22,6 +22,9 @@ function Sleep(ms: number) {
 </template>
 
 <style scoped>
+div p {
+  padding-bottom: 12px;
+}
 button {
   font-weight: bold;
 }
