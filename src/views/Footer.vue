@@ -21,7 +21,7 @@ function Sleep(ms: number) {
     Ikke nødvendigvis noget særligt specifikt, med bare noget.
     </p>
     <p>
-    To minutter her og der, det er da også fint. Tid til andet, til tilovers. 
+    To minutter her og der, det er da også fint. Tid til andet, tid tilovers. 
     Nu har jeg juleferie, og jeg har fundet nyt legetøj.
     Hvad er klokken? Ingen græder over det. 
     </p>
