@@ -10,7 +10,7 @@ const router = createRouter({
       component: Index
     },
     {
-      path: '/',
+      path: '/christian',
       name: 'christian',
       component: () => import('../views/ChristianView.vue')
     },
