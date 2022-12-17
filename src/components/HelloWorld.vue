@@ -8,7 +8,7 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Vi er mange der mangler svar.
+      Her i hullet har jeg forberedt en præsentation til lige netop dig.
     </h3>
     <p>
       <a href="https://reddit.com/" target="_blank" rel="noopener">Reddit</a>
@@ -20,6 +20,7 @@ defineProps<{
 
 <style scoped>
 h1 {
+  padding-top: 16px;
   font-weight: 500;
   font-size: 2.6rem;
   top: -10px;
@@ -27,21 +28,23 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3,p {
   text-align: center;
 }
-p a {
-  padding: 8px;
 
+.greetings *{
+  text-align: center;
+}
+p {
+  padding: 16px 8px;
+}
+p a {
+  padding: 12px;
 }
 
 @media (min-width: 1024px) {
   .greetings h1,
   .greetings h3 {
-    text-align: left;
+    text-align: center;
   }
 }
 </style>

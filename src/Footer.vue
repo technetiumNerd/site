@@ -1,13 +1,5 @@
 <script lang="ts">
 export default {
-  data() {
-    return {
-      count: 0
-    }
-  }
-}
-function Sleep(ms: number) {
-  return new Promise(resolve => setTimeout(resolve, ms));
 }
 </script>
 
@@ -31,6 +23,12 @@ function Sleep(ms: number) {
 <style scoped>
 button {
   font-weight: bold;
+}
+h3 {
+  margin: 16px 12px 8px;
+}
+p {
+  padding: 4px 0;
 }
 .imgtext {
   display: block;

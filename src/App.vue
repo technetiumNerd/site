@@ -1,15 +1,13 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import Footer from './views/Footer.vue'
+//import Footer from './components/Footer.vue'
 </script>
 
 <template>
   <header style="display:block;">
-    <img alt="Christians mor" class="logo" src="@/assets/christiansmor.jpg" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="Leder du også efter Christians mor?" />
+      <HelloWorld msg="Sortehullet har besvaret dit opkald." />
 
       <nav>
         <RouterLink to="/">Index</RouterLink>
@@ -21,7 +19,6 @@ import Footer from './views/Footer.vue'
   </header>
 
   <RouterView />
-  <Footer />
 </template>
 
 <style scoped>
@@ -32,14 +29,14 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
 }
 
 nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 nav a.router-link-exact-active {
@@ -64,26 +61,26 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    /*padding-right: calc(var(--section-gap) / 2);*/
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 0 auto;
   }
 
   header .wrapper {
-    display: flex;
+    /*display: flex;*/
     place-items: flex-start;
     flex-wrap: wrap;
   }
 
   nav {
-    text-align: left;
+    text-align: center;
     margin-left: -1rem;
     font-size: 1rem;
 
-    padding: 1rem 0;
-    margin-top: 1rem;
+    padding: 0rem 0;
+    margin-top: 0rem;
   }
 }
 </style>
