@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import Index from './views/ChristianView.vue'
+import Footer from './views/Footer.vue'
 </script>
 
 <template>
@@ -21,6 +21,7 @@ import Index from './views/ChristianView.vue'
   </header>
 
   <RouterView />
+  <Footer />
 </template>
 
 <style scoped>
