@@ -10,6 +10,11 @@ const router = createRouter({
       component: Index
     },
     {
+      path: '/',
+      name: 'christian',
+      component: () => import('../views/ChristianView.vue')
+    },
+    {
       path: '/home',
       name: 'home',
       component: () => import('../views/HomeView.vue')

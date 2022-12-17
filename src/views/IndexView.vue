@@ -12,19 +12,20 @@ function Sleep(ms: number) {
 </script>
 
 <template>
-  <h1 style="text-align: center;font-size: 48px;">Hej Christian</h1>
+  <h1 style="text-align: center;font-size: 48px;">Velkommen til et sort hul</h1>
   <div id="maindiv" style="display:block;">
-    <h2 >Jeg har overvåget din mor i 14 dage og 19 sekunder, og jeg er bange for hendes tilstand.
-    Hun har sagt skøre ting, og råbt af naboen.
-    Naboen havde også været træls i en længere periode, hvilket der også er et kendt klip med.
-    Ham snakker vi så ikke mere med.</h2>
-    <img src="../assets/christiansmor.jpg">
-    <p>Her er Christians mor.</p>
+    <h2 >Vi er mange, og vi er hvem som helst.</h2>
+    <p>Små, sorte huller over det hele på internettet. Ingen ved hvorfor, og sådan er det bare.
+    Det er bare noget der sker når et menneske møder en maskine.</p>
+    <a href="https://xkcd.com/597/"><img src="../assets/addiction.png"><span class="imgtext">Fra https://xkcd.com/597/</span></a>
   </div>
 </template>
 
 <style scoped>
 button {
   font-weight: bold;
+}
+.imgtext {
+  display: block;
 }
 </style>
