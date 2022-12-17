@@ -14,10 +14,17 @@ function Sleep(ms: number) {
 <template>
   <h3 style="text-align: center;">Du har nået bunden.</h3>
   <div id="maindiv" style="display:block;">
-    <p>Lær at svømme i små, sorte huller.
+    <p>
+    Lær at svømme i små, sorte huller.
     De er at finde over det hele på internettet.
     Det er noget man gør for at bruge tiden på noget.
-    Ikke nødvendigvis noget særligt specifikt, med bare noget.</p>
+    Ikke nødvendigvis noget særligt specifikt, med bare noget.
+    </p>
+    <p>
+    To minutter her og der, det er da også fint. Tid til andet, til tilovers. 
+    Nu har jeg juleferie, og jeg har fundet nyt legetøj.
+    Hvad er klokken? Ingen græder over det. 
+    </p>
   </div>
 </template>
 
