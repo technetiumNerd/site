@@ -14,6 +14,7 @@ import Index from './views/ChristianView.vue'
       <nav>
         <RouterLink to="/">Index</RouterLink>
         <RouterLink to="/home">Home</RouterLink>
+        <RouterLink to="/christian">Christian</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
