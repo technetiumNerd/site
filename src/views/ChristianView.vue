@@ -12,7 +12,7 @@ function Sleep(ms: number) {
 </script>
 
 <template>
-  <h1 style="text-align: center;font-size: 48px;">Hej Christian</h1>
+  <h1>Hej Christian</h1>
   <div id="maindiv" style="display:block;">
     <h2 >Jeg har overvåget din mor i 14 dage og 19 sekunder, og jeg er bange for hendes tilstand.
     Hun har sagt skøre ting, og råbt af naboen.

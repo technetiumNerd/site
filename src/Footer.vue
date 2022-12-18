@@ -18,7 +18,7 @@ export default {
     Hvad er klokken? Ingen græder over det. 
     </p>
   </div>
-  <div id="pagebottom">Lavet i <img src="src/assets/logo.svg">ue.js af en eller andet årsag.</div>
+  <div id="pagebottom">Lavet i <a href="https://vuejs.org/"><img src="src/assets/logo.svg">ue.js</a> af en eller andet årsag. Kører på en Raspberry Pi. Kastet afsted af Nginx.</div>
 </template>
 
 <style scoped>
@@ -34,13 +34,9 @@ p {
 .imgtext {
   display: block;
 }
-#footer {
-  padding:4px;
-  margin:4px;
-}
 #pagebottom {
-  padding:8px;
-  margin:2px;
+  padding: 8px;
+  margin: 2px;
   display: inline-block;
   left: 50%;
   transform: translateX(-50%);
