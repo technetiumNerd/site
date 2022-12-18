@@ -24,6 +24,9 @@ function Sleep(ms: number) {
 </template>
 
 <style scoped>
+img {
+  max-width: 100%;
+}
 button {
   font-weight: bold;
 }

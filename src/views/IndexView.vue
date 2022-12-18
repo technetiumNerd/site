@@ -37,6 +37,9 @@ h2 {
   text-align: center;
   padding: 8px;
 }
+#maindiv img {
+  max-width:100%
+}
 #maindiv a div {
   display: inline-block;
   left: 50%;
