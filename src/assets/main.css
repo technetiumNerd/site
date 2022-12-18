@@ -1,5 +1,9 @@
 @import './base.css';
 
+img {
+  max-width: 100%;
+}
+
 #app, #footer {
   display:block;
   max-width: 900px;

@@ -27,9 +27,6 @@ h1 {
   text-align: center;
   padding: 16px 8px;
 }
-img {
-  max-width: 100%;
-}
 p {
   padding: 12px 0;
 }
