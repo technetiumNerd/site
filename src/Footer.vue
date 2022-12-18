@@ -18,6 +18,7 @@ export default {
     Hvad er klokken? Ingen græder over det. 
     </p>
   </div>
+  <div id="pagebottom">Lavet i <img src="src/assets/logo.svg">ue.js af en eller andet årsag.</div>
 </template>
 
 <style scoped>
@@ -32,5 +33,19 @@ p {
 }
 .imgtext {
   display: block;
+}
+#footer {
+  padding:4px;
+  margin:4px;
+}
+#pagebottom {
+  padding:8px;
+  margin:2px;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#pagebottom img {
+  height: 16px;
 }
 </style>
