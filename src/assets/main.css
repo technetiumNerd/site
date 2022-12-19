@@ -11,7 +11,7 @@ iframe {
   height: 100px;
 }
 #app {
-  min-height: calc(100vh - 455px);
+  min-height: calc(100vh - 561px);
 }
 #maindiv {
   display:block;
