@@ -21,10 +21,10 @@ function Sleep(ms: number) {
   </div>
   <div class="sort"><p>Grav dybere</p></div>
   <div class="sort"><p>Grav som har du gravet før</p>
-                     <p class="rightalign">vim</p>
+                    <p class="rightalign">vim</p>
   </div>
   <div class="sort"><p>Det er landets mest spændende hul</p>
-                     <p class="leftalign">neovim</p>
+                    <p class="leftalign">neovim</p>
   </div>
   <div class="sort"><p>Sorte huller går dybere</p>
                     <p>Her fik du en smagsprøve</p>
