@@ -25,10 +25,14 @@ iframe {
 footer {
   padding: 32px 1rem 16px 1rem;
   width: 100vw;
-  height: 260px;
+  min-height: 260px;
+}
+footer p {
+  max-width: 1500px;
+  margin: 0 auto;
 }
 header {
-  height: 195px;
+  min-height: 195px;
 }
 #header {
   text-align: center;
@@ -64,7 +68,7 @@ nav a:first-of-type {
 
 @media (min-width: 1024px) {
   header {
-    display: flex;
+    /*display: flex;*/
     place-items: center;
     /*padding-right: calc(var(--section-gap) / 2);*/
   }

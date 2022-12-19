@@ -41,7 +41,6 @@ p {
 }
 #pagebottom {
   padding: 8px;
-  margin: 2px;
   text-align: center;
   /*display: inline-block;
   left: 50%;
