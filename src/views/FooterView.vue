@@ -19,7 +19,7 @@ export default {
       Hvad er klokken? Ingen græder over det. 
       </p>
     </div>
-    <p id="pagebottom">Lavet i <a href="https://vuejs.org/"><img src="../assets/logo.svg">ue.js</a> af en eller andet årsag. Kører på en Raspberry Pi. Kastet afsted af Nginx.</p>
+    <p id="pagebottom">Lavet i <a href="https://vuejs.org/"><img src="../assets/logo.svg">ue.js</a> af en eller andet årsag. Kører på en Raspberry Pi. Kastet afsted af Nginx. <a href="https://github.com/technetiumNerd/site" target="_blank">src</a></p>
   </footer>
 </template>
 
