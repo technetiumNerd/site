@@ -26,6 +26,7 @@ export default {
 <style scoped>
 footer {
   background-color: #2f2222;
+  text-align: center;
 }
 button {
   font-weight: bold;
