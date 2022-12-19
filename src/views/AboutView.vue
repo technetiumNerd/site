@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div id="maindiv">
     <h1>Surprise, det er Philip!</h1>
     <p>Philip er en one-man-army, som det ikke er til at spøge med.
     Han griner aldrig, og hører kun god musik, i modsætningen til de fleste.</p>
@@ -12,9 +12,6 @@
 </template>
 
 <style>
-img {
-  max-width: 100%;
-}
 /*@media (min-width: 1024px) {
   .about {
     min-height: 100vh;
