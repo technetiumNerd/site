@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header style="display:block;">
+  <div id="nav-header" style="display:block;">
     <div class="wrapper">
     <p class="toplinks">
       <a href="https://reddit.com/" target="_blank" rel="noopener">Reddit</a>
@@ -18,13 +18,13 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/setup">Setup things</RouterLink>
       </nav>
     </div>
-  </header>
+  </div>
 
   <RouterView />
 </template>
 
 <style scoped>
-header {
+#navheader {
   line-height: 1.5;
   max-height: 100vh;
 }

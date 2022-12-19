@@ -7,7 +7,7 @@ img {
 }
 
 #app {
-  min-height: calc(79.8vh - 260px);
+  min-height: calc(100vh - 455px);
 }
 #maindiv {
   display:block;
@@ -22,6 +22,9 @@ footer {
   padding: 32px 1rem 16px 1rem;
   width: 100vw;
   height: 260px;
+}
+header {
+  height: 195px;
 }
 #header {
   text-align: center;
