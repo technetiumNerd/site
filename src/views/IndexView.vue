@@ -34,7 +34,7 @@ function Sleep(ms: number) {
 
 <style scoped>
 .sort {
-  height: 400px;
+  height: 800px;
 }
 .sort p{
   margin-top: 200px;
